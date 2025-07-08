@@ -1,3 +1,17 @@
+
+/*
+    Write a JAVA Program to implement a segment tree with its operations In Hyderabad after
+a long pandemic gap, the Telangana Youth festival Is Organized at HITEX.
+In HITEX, there are a lot of programs planned. During the festival in order to maintain the rules of
+Pandemic, they put a constraint that one person can only attend any one of the programs in one day
+according to planned days. Now it’s your aim to implement the "Solution" class in such a way that you
+need to return the maximum number of programs you can attend according to given constraints.
+Explanation: You have a list of programs ‘p’ and days ’d’, where you can attend only one program on
+one day. Programs [p] = [first day, last day], p is the program's first day and the last day.
+Input Format:
+Line-1: An integer N, number of programs.
+Line-2: N comma separated pairs, each pair(f_day, l_day) is separated by space.
+ */
 import java.util.*;
 
 class SegmentTree {
